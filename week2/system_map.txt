@@ -1,0 +1,70 @@
+1. Current Username:
+
+	command = whoami
+	output = u0_a452
+
+2. Home directory path:
+
+	command = pwd
+	output = /data/data/com.termux/files/home
+
+3. What shell am I using:
+
+	command = echo $SHELL
+	output = /data/data/com.termux/files/usr/bin/bash
+
+4. Tree structure of projects:
+
+	command = tree ~/projects -L 2
+	output = 
+			/data/data/com.termux/files/home/projects
+			└── cloud-ml-journey
+			    ├── README.md
+			        └── week1
+
+5. How many .py  files in week1:
+	command = 1. cd ~/projects/cloud-ml-journey/week1
+			  2. ls
+	output = 8 python files are inn week1
+
+6. What is in ~/.ssh directory:
+	command = ls ~/.ssh
+	output = authorized_keys  id_ed25519.pub  known_hosts.old
+		     id_ed25519       known_hosts
+
+7. What directories are at root level:
+	command = ls /
+	output =  ls: cannot open directory '/': Permission denied
+
+8. System Hostname:
+   Command: hostname
+   Output: localhost
+
+   Note: /etc on Termux is Android's config directory.
+      Termux's actual Linux config lives at $PREFIX/etc
+         ($PREFIX = /data/data/com.termux/files/usr)
+         
+9. Full $PATH variable:
+	command = echo $PATH
+	output = /data/data/com.termux/files/usr/bin
+
+10. Where python command is located:
+	command = which python
+	output =  /data/data/com.termux/files/usr/bin/python
+
+11. Where  git command is located:
+	command = which git
+	output = /data/data/com.termux/files/usr/bin/git
+
+12. Last 10 history:
+	command = history 10
+	output = 535  cd /etc
+	  		 536  cat hosts
+	    	 537  clear
+	      	 538  cd
+	         539  micro system_map.txt
+	         540  echo $PATH
+	         541  micro system_map.txt
+	         542  which python
+	         543  micro system_map.txt
+	         544  which git
