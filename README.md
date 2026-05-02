@@ -11,7 +11,7 @@ My journey from zero to AI/ML Cloud Engineer.
 
 ### Phase 1: Foundations (Months 1-3)
 - [x] Day 0: Setup complete
-- [ ] Module 1.1: Python Programming
+- [x] Module 1.1: Python Programming
 - [ ] Module 1.2: Linux & Command Line
 - [ ] Module 1.3: Networking Fundamentals
 - [ ] Module 1.4: Git & Version Control
