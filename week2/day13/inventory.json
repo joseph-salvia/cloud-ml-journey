@@ -1,0 +1,22 @@
+{
+  "servers": [
+    {
+      "name": "web-server-01",
+      "region": "us-east-1",
+      "cpu": 4,
+      "ram": 16
+    },
+    {
+      "name": "db-server-02",
+      "region": "eu-west-1",
+      "cpu": 8,
+      "ram": 32
+    },
+    {
+      "name": "jababy",
+      "region": "us-east-1",
+      "cpu": "12",
+      "ram": "64"
+    }
+  ]
+}
